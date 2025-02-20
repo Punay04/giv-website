@@ -1,57 +1,82 @@
-# Giv - Decentralized Volunteering Platform
+# Giv Platform
 
-Giv is a blockchain-powered platform that connects volunteers with meaningful causes, making it easier for people to contribute to their communities and track their impact through transparent blockchain technology.
+Give a little, Change a lot - A platform connecting volunteers with meaningful opportunities.
 
 ## Features
 
-- Decentralized volunteer opportunity listings
-- Blockchain-based verification of volunteer hours
-- Dark theme modern UI
-- User authentication and profiles
-- Real-time opportunity matching
-- Impact tracking and reporting
+- User Authentication
+- Community-driven volunteering opportunities
+- Mobile app support
+- Emergency disaster response coordination
+- Real-time community interaction
+- Location-based opportunity matching
 
 ## Tech Stack
 
-- MongoDB - Database
-- Express.js - Backend framework
-- React.js - Frontend framework
-- Node.js - Runtime environment
-- Web3.js - Blockchain integration
-- Material-UI - UI components
-- JWT - Authentication
+- Frontend: React.js with Material-UI
+- Backend: Node.js with Express
+- Database: MongoDB
+- Authentication: JWT
+- Mobile: React Native (Coming Soon)
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+- Node.js >= 14.0.0
+- MongoDB >= 4.4
+- npm or yarn
 
-- Node.js (v16 or higher)
-- MongoDB
-- MetaMask wallet
+## Installation
 
-### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/giv-platform.git
+cd giv-platform
+```
 
-1. Clone the repository
 2. Install dependencies:
-   ```bash
-   cd giv-platform
-   cd server && npm install
-   cd ../client && npm install
-   ```
-3. Set up environment variables
-4. Run the development servers:
-   ```bash
-   # Start backend
-   cd server && npm run dev
-   
-   # Start frontend
-   cd client && npm start
-   ```
+```bash
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+```
+
+3. Set up environment variables:
+```bash
+# In server directory
+cp .env.example .env
+# Update the .env file with your MongoDB URI and JWT secret
+```
+
+4. Start the development servers:
+```bash
+# Start server (from server directory)
+npm run dev
+
+# Start client (from client directory)
+npm start
+```
+
+## Mobile App
+
+The mobile app is currently in development. You can download the latest APK from the website's download section.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Your Name - your.email@example.com
+Project Link: https://github.com/yourusername/giv-platform
