@@ -246,26 +246,6 @@ const App = () => {
                     
                     <Stack direction="row" spacing={1} sx={{ ml: 1 }}>
                       <WalletButton />
-                      <Button
-                        variant="contained"
-                        href="/giv-app.apk"
-                        download
-                        startIcon={<AndroidIcon sx={{ fontSize: '1.2rem' }} />}
-                        size="small"
-                        sx={{
-                          bgcolor: 'rgb(241,158,75)',
-                          color: 'white',
-                          fontSize: '0.85rem',
-                          py: 0.5,
-                          px: 1.5,
-                          '&:hover': {
-                            bgcolor: 'rgb(220,144,68)',
-                          },
-                          transition: 'all 0.3s ease',
-                        }}
-                      >
-                        Download Now
-                      </Button>
                     </Stack>
 
                     <Box sx={{ ml: 1 }}>
@@ -317,26 +297,6 @@ const App = () => {
                   <>
                     <Stack direction="row" spacing={1} sx={{ ml: 1 }}>
                       <WalletButton />
-                      <Button
-                        variant="contained"
-                        href="/giv-app.apk"
-                        download
-                        startIcon={<AndroidIcon sx={{ fontSize: '1.2rem' }} />}
-                        size="small"
-                        sx={{
-                          bgcolor: 'rgb(241,158,75)',
-                          color: 'white',
-                          fontSize: '0.85rem',
-                          py: 0.5,
-                          px: 1.5,
-                          '&:hover': {
-                            bgcolor: 'rgb(220,144,68)',
-                          },
-                          transition: 'all 0.3s ease',
-                        }}
-                      >
-                        Download Now
-                      </Button>
                     </Stack>
                     <Button 
                       color="inherit" 
